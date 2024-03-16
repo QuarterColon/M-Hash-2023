@@ -1,0 +1,41 @@
+.gram-main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    background-image: url("../../assets/images/bg-yellow.png");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* background: rgb(2,0,36); */
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(218,71,196,1) 0%, rgba(103,154,242,1) 100%); */
+
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.bg-texture{
+    background-color: white;
+    background-image: url('../../assets/images/sheet.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.word{
+    margin: 0 25px;
+    font-size: 1.4rem;
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.resp-text{
+    padding: 10px 20px;
+    border-radius: 40px;
+    
+
+}

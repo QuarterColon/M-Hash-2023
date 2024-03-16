@@ -1,0 +1,193 @@
+.bg-home{
+    background-color: #ffff;
+    /* background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png"); */
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+
+.dummy-dash{
+    min-height: 200px;
+    background-color: #001d3d;
+background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.right-dash-item{
+    background-color: orange;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-weight: 400;
+}
+
+
+
+
+.dash{
+    position: relative;
+    margin-top: -80px;
+    background-color: #f7f7f7;
+    /* background-color: black; */
+    border-radius: 50px;
+    padding: 20px 100px;
+    font-size: 1.2rem;
+
+}
+.dash p{
+    font-size: 1.5rem;
+}
+
+.flex-cards{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+}
+
+.card-dash{
+    padding: 10px 30px;
+    margin: 0 10px;
+    /* border: 2px solid;  */
+    /* border-style: solid; */
+    border-radius: 20px;
+    /* background-color: #a6e2e6; */
+    min-width: 150px;
+  }
+
+.card-dash:hover{
+    transform: scale(1.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dash-info:hover{
+    transform: scale(1.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.dash-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-dash{
+    height: 250px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.img-dash:hover{
+    transform: scale(1.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dash-info h4{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.dash-info p{
+    font-size: 1.2rem;
+    color: green;
+}
+
+
+.my-flex-props{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.round-left{
+    border-radius: 40px 0 0 40px;
+}
+/* .round-left:hover {
+    background-color: blue !important;
+    cursor: pointer; 
+  } */
+
+.round-right{
+    border-radius: 0 40px 40px 0;
+}
+
+.progress-card{
+    border-radius: 40px;
+    background-color: aliceblue;
+    padding: 20px 40px;
+}
+
+.app-icon{
+    height: 100px;
+}
+
+.mt-5{
+    margin-top: 10px;
+}
+
+.img-clock:hover{
+    transform: scale(1.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.leaderBoard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+}
+
+
+
+.service__item{
+    padding: 20px;
+    /* background: var(--card-bg-01); */
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    cursor: pointer;
+}
+
+.service__item span i{
+    font-size: 2.2rem;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 400 !important;
+}
+
+.service__item h3{
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.service__item p{
+    font-size: 0.9rem;
+    margin-top: 5px;
+    color: #222;
+}
+
+
+.leaderBoard{
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

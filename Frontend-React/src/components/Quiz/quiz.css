@@ -1,0 +1,10 @@
+.question-div{
+    font-size: 2rem;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.options-div{
+    display: flex;
+}   

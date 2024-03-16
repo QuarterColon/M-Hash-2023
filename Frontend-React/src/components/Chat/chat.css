@@ -1,0 +1,79 @@
+.bg-chat{
+    background-color: #fff5f5;
+    background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */   
+
+}   
+
+.white-body{
+    background-color: white !important;
+}
+
+my-flex-props{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.flex-col{
+    flex-direction: column;
+}
+
+.btn-ask{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 2rem;
+    background-color:#EBF4F7;
+    border: none;
+}
+
+.btn-confirm{
+    padding: 5px 70px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color:#EBF4F7;
+    border: none;
+}
+
+.btn-wait{
+    padding: 5px 70px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color:grey;
+    border: none;
+}
+
+.btn-confirm:hover {
+    /* Styles applied on hover */
+    background-color: greenyellow;
+    transform: scale(1.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-back{
+    padding: 15px 25px;
+    border-radius: 30px;
+    background-color: pink;
+    position: relative;
+    top: 50px;
+}
+
+.btn-ask {
+    /* Define initial styles */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-ask:hover {
+    /* Styles applied on hover */
+    background-color: #AECDDC;
+    transform: scale(1.2);
+}
+
+.resp-p{
+    padding: 20px 40px;
+    /* background-color: red; */
+    font-size: 1.2rem;
+    border: solid;
+    border-radius: 25px;
+}

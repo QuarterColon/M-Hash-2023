@@ -1,0 +1,35 @@
+.pomo{
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/random-grey-variations.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.my-flex-props{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.pomo-btn{
+    padding: 10px 50px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+
+    background-color: #A7D397;
+}
+
+
+.pomo-btn-stop{
+    padding: 10px 50px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+
+    background-color: red;
+}
+   

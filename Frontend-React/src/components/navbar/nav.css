@@ -1,0 +1,14 @@
+.nav-item:hover{
+   
+    transform: scale(1.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+.link-style {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+  }

@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+openai
+elevenlabs
+language_tool_python
