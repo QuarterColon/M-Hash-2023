@@ -7,8 +7,8 @@ import language_tool_python
 
 running_thread = None
 
-set_api_key("cff43c28a4825f1d7c3d3b530e7f97e7")
-openai.api_key = "OPENAI_key"
+# set_api_key("cff43c28a4825f1d7c3d3b530e7f97e7")
+# openai.api_key = "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"
 grammar_tool = language_tool_python.LanguageTool('en-US')
 
 origins = [
